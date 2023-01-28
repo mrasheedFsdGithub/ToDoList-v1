@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Today's Day</title>
+    <style>
+      .day {
+        font-size: 3em;
+        font-weight: bold;
+        text-align: center;
+        color: #3498db;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="day">
+      <script>
+        var d = new Date();
+        var days = [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ];
+        document.write(days[d.getDay()]);
+      </script>
+    </div>
+  </body>
+</html>
